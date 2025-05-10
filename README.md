@@ -1,6 +1,6 @@
 # Primeiro Projeto
 primeiro repositorio para estudos Git e GitHub
 
-Repositorio teste
+Projeto de uma pequena calculadora de juros compostos.
 
-alteracao direto do site
+fase inicial , precisa de melhorias e novas funcoes. estou implementando 

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --fonte-principal: 'Open Sans';
+    --color-1: rgb(65, 105, 225); 
+    --color-2: rgb(113, 143, 233); 
+    --color-3: rgb(160, 180, 240); 
+    --color-4: rgb(208, 218, 248); 
+    --color-5: rgb(255, 255, 255); 
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans';
+    
+}
+header{
+    min-height: 100px;
+    background-color: var(--color-1);
+    box-shadow: 1px 1px 15px 12px rgba(0, 0, 0, 0.205);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div.box-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 24px;
+    max-width: 1000px;
+    background-color: #F8F9FA;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+div>h2{
+    color: var(--color-1);
+}
+div#box-principal-resultado{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+div.resultado_bloco{
+    background-color: var(--color-1);
+    min-width: 300px;
+    padding: 24px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-5);
+    border-radius: 8px;
+}
+div.box-entrada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 24px 0px;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+span{
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+
+}
+select{
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+}
+
+div.box-comando{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 8px 24px;
+    background-color: var(--color-1);
+    color: var(--color-5);
+    border: none;
+    border-radius: 5px;
+}
+div#res{
+    text-align: center;
+    color: var(--color-1);
+}

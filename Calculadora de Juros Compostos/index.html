@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="shortcut icon" href="github.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="box-principal">
+            <h2>Simulador de Juros Compostos</h2>
+            <div class="box-entrada">
+                <div class="box-entrada-ind">
+                    <label for="valor_inicial">Valor inicial</label>
+                    <span>R$</span>
+                    <input type="text" name="valor_inicial" id="valor_inicial" >
+                </div>
+                <div class="box-entrada-ind">
+                    <label for="valor_mensal">Valor mensal</label>
+                    <span>R$</span>
+                    <input type="text" name="valor_mensal" id="valor_mensal" >
+                </div>
+                <div class="box-entrada-ind">
+                    <label for="taxa_juros">Taxa de juros</label>
+                    <span>%</span>
+                    <input type="text" name="taxa_juros" id="taxa_juros" >
+                    <select name="selecao_taxa_juros" id="selecao_taxa_juros">
+
+                        <option value="mensal">Mensal</option>
+                    </select>
+                </div>
+                <div class="box-entrada-ind">
+                    <label for="periodo">periodo</label>
+                    <span></span>
+                    <input type="number" name="periodo" id="periodo" >
+                    <select name="selecao_periodo" id="selecao_periodo">
+
+                        <option value="meses">Mes(es)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box-comando">
+                <button id="comando_calcular">Calcular</button>
+                <button id="comando_limpar">limpar</button>
+            </div>
+        </div>
+        <div class="box-principal" id="box-principal-resultado">
+            <h2>Resultado</h2>
+            <div class="resultado_bloco" id="resultado_valor_final"></div>
+            <div class="resultado_bloco" id="resultado_valor_investido"></div>
+            <div class="resultado_bloco" id="resultado_valor_juros"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -21,7 +21,7 @@ function formataPorcentagen(valor){
     return (Number(valor) / 100).toLocaleString('pt-BR', {
     minimumFractionDigits: 2,
     maximumFractionDigits: 2
-    }) 
+    }) + ' %'
 }
 
 function limparMoeda(valor){
